@@ -1,0 +1,25 @@
+Running recommendations for target user: user1
+
+Using collision avoidance technique: separate_chaining
+Recommendations for user1: ['The Last of Us', 'Battlefield', 'Gears of War']
+Insertion Time: 0.000022 seconds
+Retrieval Time: 0.000064 seconds
+Collisions: 1
+
+Using collision avoidance technique: linear_probing
+Recommendations for user1: ['The Last of Us', 'Battlefield', 'Gears of War']
+Insertion Time: 0.000011 seconds
+Retrieval Time: 0.000039 seconds
+Collisions: 2
+
+Using collision avoidance technique: quadratic_probing
+Recommendations for user1: ['The Last of Us', 'Battlefield', 'Gears of War']
+Insertion Time: 0.000008 seconds
+Retrieval Time: 0.000030 seconds
+Collisions: 2
+
+Using collision avoidance technique: double_hashing
+Recommendations for user1: ['The Last of Us', 'Battlefield', 'Gears of War']
+Insertion Time: 0.000007 seconds
+Retrieval Time: 0.000028 seconds
+Collisions: 2
